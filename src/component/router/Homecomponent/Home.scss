@@ -1,0 +1,30 @@
+@mixin main{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.home-header{
+    h1{
+        background-color: antiquewhite;
+        position:absolute;
+        top: 40%;
+        left: 50%;
+        padding: 10px;
+        transform: translate(-50%,-50%);
+        text-transform: capitalize;
+        color: rgb(190, 33, 46); 
+        font-size: 50px;
+        text-shadow: 2rem;  
+    }   
+    img{
+        width: 100%;
+        height: 710px;  
+    }
+}
+@mixin wi($arg1,$arg2){
+  width: $arg1;
+  height: $arg2;
+}
+
+
+  

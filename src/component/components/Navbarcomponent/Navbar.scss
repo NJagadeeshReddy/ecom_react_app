@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin main {
+  display: flex;
+  text-align: center;
+}
+
+$bg-color: rgb(55, 119, 49);
+
+@mixin wi($arg1, $arg2) {
+  width: $arg1;
+  height: $arg2;
+}
+
+nav {
+  @include main;
+  @include wi(100%, 5rem);
+  background-color: $bg-color;
+  position: relative;
+  justify-content: space-between;
+  padding: 15px 30px;
+  box-shadow: 0 0 0.2rem 0 rgb(159, 237, 191);
+
+  .icon img {
+    @include wi(4rem, 3rem);
+    border-radius: 30%;
+    cursor: pointer;
+  }
+
+  ol {
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+
+    li a {
+      color: #333;
+      font-size: 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+
+    }
+
+    li:hover a {
+      background-color: white;
+      color: orange;
+      padding: 5px;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+
+    img {
+      @include wi(2rem, 2rem)
+    }
+
+    li {
+      padding: 5px 10px;
+      margin: 0 2px;
+    }
+
+    li:hover {
+      // background-color: aqua;
+      cursor: pointer;
+    }
+  }
+
+  sup {
+    position: absolute;
+    top: 1.6rem;
+    right: 2.5rem;
+    background-color: red;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 2px 5px;
+  }
+
+  .search_box {
+    display: flex;
+    margin: auto;
+
+    @include wi(none, 2.3rem);
+
+    input {
+      @include wi(25rem, 2.1rem);
+      padding-left: 12px;
+      font-size: medium;
+      font-weight: 200;
+      border-radius: 2px;
+      border-color: aliceblue;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    padding: 10px;
+
+    .icon {
+      @include wi(4rem, 2.5rem);
+    }
+
+    ol {
+      .cart {
+        img {
+          @include wi(2rem, 2rem);
+        }
+      }
+
+      li {
+        padding: 1px 2px;
+        margin: 0 1px;
+      }
+
+      // display: none;
+    }
+
+    sup {
+      position: absolute;
+      top: 1.1rem;
+      right: 0.77rem;
+      background-color: rgb(229, 19, 19);
+      color: #fff;
+      font-size: 11px;
+      border-radius: 50%;
+      padding: 2px 5px;
+    }
+
+    .search_box {
+      margin: 10px auto;
+      @include wi(none, 2.3rem);
+
+      input {
+        @include wi(100%, 2rem);
+        padding: 0, 10px;
+        font-size: medium;
+
+      }
+    }
+  }
+}
+
+.img2 #jaga001:hover {
+  visibility: visible;
+}
+
+// cart scss
+.sidebar {
+  position: fixed;
+  visibility: hidden;
+  /* margin-top: 10px; */
+  margin-left: -250px;
+  /* right: 0px; */
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #eee;
+  padding: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#jaga001:hover .sidebar {
+  visibility: visible;
+  position: fixed;
+}
+
+.head {
+  background-color: goldenrod;
+  align-items: center;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  border-top: 1px solid #333;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 3px;
+  margin: 10px 10px;
+}
+
+.row-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid goldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    max-width: 3rem;
+    max-height: 3rem;
+    border-radius: 50%;
+  }
+}
+
+
+.cart-item button {
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  border: 5px solid red;
+}
+
+.de {
+  color: white;
+  animation-name: text;
+  animation-delay: 0;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  margin-top: -100px;
+  position: fixed;
+  padding: 10px 30px;
+
+}
+
+@keyframes text {
+  0% {
+    background-color: lightgreen;
+    right: 25%;
+    top: 0;
+    margin-top: 50px;
+  }
+
+  50% {
+    background-color: green;
+    right: 25%;
+    top: 20;
+  }
+
+  100% {
+    background-color: green;
+    right: 25%;
+    top: 0;
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .de {
+    color: white;
+    animation-name: text;
+    animation-delay: 0;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    margin-top: -100px;
+    position: fixed;
+    padding: 5px 20px;
+
+  }
+
+  @keyframes text {
+    0% {
+      background-color: lightgreen;
+      right: 15%;
+      top: 0;
+      margin-top: 50px;
+    }
+
+    50% {
+      background-color: green;
+      right: 15%;
+      top: 20;
+    }
+
+    100% {
+      background-color: green;
+      right: 15%;
+      top: 0;
+      margin-top: 200px;
+    }
+  }
+
+  #jaga001:hover .sidebar {
+    visibility: visible;
+  }
+
+}

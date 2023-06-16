@@ -1,0 +1,100 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+
+.div-f {
+  display: flex;
+
+  .menu-list {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 20px;
+
+    .list {
+      .sec{
+        color: rgb(241, 245, 234);
+        background-color: #3e5770;
+        padding: 10px;
+      text-transform: uppercase;
+      }
+      section {
+        padding: 10px 0;
+        font-weight: bold;
+        color: $secondary-color;
+        
+
+        &:first-child {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .menu-data {
+    flex: 3;
+
+    .card {
+      #root {
+        display: flex;
+        flex-wrap: wrap;
+
+        .data {
+          width: 200px;
+          padding: 10px;
+          margin: 10px;
+          background-color: #fff;
+          border-radius: 5px;
+
+          img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 10px;
+          }
+
+
+          p {
+            margin-bottom: 5px;
+            color: black;
+            
+          }
+          h3{
+            color: black;
+            font-size: 16px;
+          }
+
+          h4 {
+            color: red;
+            font-size: 16px;
+            margin-bottom: 5px;
+
+            strike {
+              opacity: 0.5;
+              font-size: 15px;
+            }
+          }
+
+          h6 {
+            font-size: 14px;
+            color: rgb(17, 199, 17);
+            margin-bottom: 10px;
+          }
+
+          button {
+            background-color: $primary-color;
+            color: #fff;
+            border: none;
+            padding: 8px 12px;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+              background-color: darken($primary-color, 10%);
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

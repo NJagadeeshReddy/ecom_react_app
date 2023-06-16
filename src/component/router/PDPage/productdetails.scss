@@ -1,0 +1,133 @@
+@mixin wh($arg1, $arg2) {
+  width: $arg1;
+  height: $arg2;
+}
+
+.pdp {
+
+  margin-left: 10%;
+
+  .cancel {
+    color: red;
+    background-color: rgb(241, 231, 231);
+    padding: 5px;
+  }
+
+  @media (max-width: 768px) {
+    position: relative;
+  }
+
+  .cancel {
+    color: red;
+    padding: 5px;
+    position: relative;
+    top: 30px;
+    right: 0px;
+    left: 2px;
+    border: 1px solid;
+    z-index: 1;
+  }
+
+}
+
+.product-details {
+  position: relative;
+  @include wh(80%, 500px);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+
+  .product-image {
+    flex: 1;
+
+    img {
+      @include wh(400px, 350px)
+    }
+  }
+
+  @media (max-width: 768px) {
+    display: block;
+    @include wh(80%, 500px);
+
+    .product-image {
+      flex: 1;
+
+      img {
+        @include wh(200px, 150px);
+      }
+    }
+  }
+
+}
+
+.product-info {
+  flex: 2;
+  margin-left: 10px;
+
+  h2 {
+    color: orange;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  h4 {
+    font-size: 16px;
+    margin-bottom: 2px;
+    color: rgb(242, 0, 255);
+  }
+
+  h3 {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  h6 {
+    font-size: 14px;
+    margin-bottom: 2px;
+    color: rgb(85, 230, 85);
+  }
+
+  button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .more {
+    margin-left: 90%;
+    margin-right: 0;
+    background-color: #319ba3;
+    padding: 5px 5px;
+
+    .more:hover {
+      color: #319ba3;
+      background-color: #3c31a3;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    position: relative;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+
+    .product-image {
+      flex: 1;
+      margin: 0;
+    }
+
+    .product-info {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+}
