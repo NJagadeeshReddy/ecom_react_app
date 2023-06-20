@@ -35,14 +35,25 @@ nav {
     display: flex;
     list-style: none;
     margin: auto 0;
-
-    li a {
+   
+    li {
+      background-color: none;
+    
+    .lin{
+      color: rgb(113, 244, 96);
+      background-color:$bg-color;
+    }
+    a {
       color: #333;
       font-size: 1.5rem;
       text-decoration: none;
       font-weight: bold;
-
+      background-color: white;
+      border-radius: 3px;
+      padding: 2px;
     }
+  }
+    
 
     li:hover a {
       background-color: white;
@@ -62,9 +73,9 @@ nav {
     }
 
     li:hover {
-      // background-color: aqua;
       cursor: pointer;
     }
+    
   }
 
   sup {
@@ -110,22 +121,17 @@ nav {
       }
 
       li {
-        padding: 1px 2px;
-        margin: 0 1px;
+        padding: 0;
+        margin: 0;
+        a .login{
+          font-size: 1.2rem;
+        }
       }
-
-      // display: none;
     }
 
     sup {
-      position: absolute;
-      top: 1.1rem;
-      right: 0.77rem;
-      background-color: rgb(229, 19, 19);
-      color: #fff;
-      font-size: 11px;
-      border-radius: 50%;
-      padding: 2px 5px;
+      top: 1.6rem;
+      right: 0.5rem;
     }
 
     .search_box {
@@ -134,7 +140,7 @@ nav {
 
       input {
         @include wi(100%, 2rem);
-        padding: 0, 10px;
+        padding: 0, 0;
         font-size: medium;
 
       }
@@ -150,9 +156,7 @@ nav {
 .sidebar {
   position: fixed;
   visibility: hidden;
-  /* margin-top: 10px; */
-  margin-left: -250px;
-  /* right: 0px; */
+  right: 0px; 
   width: fit-content;
   border-radius: 10px;
   background-color: #eee;
@@ -160,133 +164,54 @@ nav {
   text-align: center;
   align-items: center;
   justify-content: center;
+  z-index: +1;
 
 }
 
 #jaga001:hover .sidebar {
   visibility: visible;
   position: fixed;
-}
-
-.head {
-  background-color: goldenrod;
-  align-items: center;
-}
-
-.foot {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0px;
-  padding: 10px 0px;
-  border-top: 1px solid #333;
+  .head {
+    background-color: goldenrod;
+    align-items: center;
+  }
+  .foot {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid #333;
+  }
 }
 
 .cart-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 10px;
+  justify-content: space-around;
+  padding: 5px;
   background-color: white;
   border-bottom: 1px solid #aaa;
   border-radius: 3px;
   margin: 10px 10px;
-}
-
-.row-img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  border: 1px solid goldenrod;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  img {
-    max-width: 3rem;
-    max-height: 3rem;
-    border-radius: 50%;
+  .row-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    img {
+      max-width: 3rem;
+      max-height: 3rem;
+      border-radius: 50%;
+    }
   }
-}
-
-
-.cart-item button {
-  background-color: red;
-  color: white;
-  border-radius: 3px;
-  border: 5px solid red;
-}
-
-.de {
-  color: white;
-  animation-name: text;
-  animation-delay: 0;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  margin-top: -100px;
-  position: fixed;
-  padding: 10px 30px;
-
-}
-
-@keyframes text {
-  0% {
-    background-color: lightgreen;
-    right: 25%;
-    top: 0;
-    margin-top: 50px;
-  }
-
-  50% {
-    background-color: green;
-    right: 25%;
-    top: 20;
-  }
-
-  100% {
-    background-color: green;
-    right: 25%;
-    top: 0;
-    margin-top: 200px;
-  }
-}
-
-@media (max-width: 768px) {
-  .de {
+  button {
+    background-color: red;
     color: white;
-    animation-name: text;
-    animation-delay: 0;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    margin-top: -100px;
-    position: fixed;
-    padding: 5px 20px;
-
+    border-radius: 3px;
+    border: 5px solid red;
   }
-
-  @keyframes text {
-    0% {
-      background-color: lightgreen;
-      right: 15%;
-      top: 0;
-      margin-top: 50px;
-    }
-
-    50% {
-      background-color: green;
-      right: 15%;
-      top: 20;
-    }
-
-    100% {
-      background-color: green;
-      right: 15%;
-      top: 0;
-      margin-top: 200px;
-    }
-  }
-
-  #jaga001:hover .sidebar {
-    visibility: visible;
-  }
-
 }

@@ -1,9 +1,12 @@
 import React, { PureComponent } from "react";
 import "./productdetails.scss";
-
 export default class PDPComponent extends PureComponent {
+ 
+  handleCancel = ()=>{
+    
+  }
   render() {
-    const { handleCancel, handleAddToCart } = this.props;
+    const {  handleAddToCart } = this.props;
     const { product } = this.props;
 
     {
@@ -13,7 +16,7 @@ export default class PDPComponent extends PureComponent {
     return (
       <>
         <div className="pdp">
-          <button className="cancel" onClick={handleCancel}>
+          <button className="cancel" onClick={this.handleCancel}>
             C
           </button>
           <div className="product-details">
@@ -29,7 +32,7 @@ export default class PDPComponent extends PureComponent {
                   ₹.{product.prize}
                 </strike>
               </h4>
-              <h3>Qty: {product.quantity}.kg</h3>
+              <h3>Qty: {product.qty}.kg</h3>
               <h6>Off: {product.off}%</h6>
               <button onClick={() => handleAddToCart(product)}>
                 Add to Cart

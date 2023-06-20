@@ -14,7 +14,9 @@ const PDPcontainer = (props) => {
         setProduct(data);
       })
       .catch((error) => console.log(error));
-  }, [id]);
+      
+  },[id]);
+  console.log(product)
 
   if (!product) {
     return <div>Loading...</div>;
