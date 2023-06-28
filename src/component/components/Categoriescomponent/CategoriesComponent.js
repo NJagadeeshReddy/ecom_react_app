@@ -1,22 +1,13 @@
-import React, { PureComponent } from "react";
-import "./main.scss";
-import { Link } from "react-router-dom";
-export default class Productscomponent extends PureComponent {
+import React, { PureComponent } from 'react'
+import { Link } from 'react-router-dom';
+import "./Categories.scss"
+export default class CatageroiesComponent extends PureComponent {
   render() {
-    const { products ,selectedCategory} = this.props;
-    {console.log(products)}
-
-
+    const {product}=this.props
+    console.log(product)
     return (
       <div>
-        <div  className="category">
-        <button onClick={()=>this.props.filterProduct(selectedCategory)}>All</button>
-          <button onClick={()=>this.props.filterProduct("fruits")}>Fruits</button>
-          <button onClick={()=>this.props.filterProduct("dryfruits")}>DryFruits</button>
-          <button onClick={()=>this.props.filterProduct("vegetables")}>Vegetables</button>
-          <button onClick={()=>this.props.filterProduct("juices")}>Juices</button>
-         
-        </div>
+       
         <div className="div-f">
           <div className="menu-list">
             <div className="list">
@@ -26,7 +17,6 @@ export default class Productscomponent extends PureComponent {
               <div>
                 <section>Categories</section>
               </div>
-              <section className="sec">{selectedCategory}</section>
               <section>OFFERS</section>
               <section>DISCOUNT</section>
               <section>CUSTOMER RATINGS</section>
@@ -37,14 +27,13 @@ export default class Productscomponent extends PureComponent {
           <div className="menu-data">
             <div className="card" id="root">
               <div id="root">
-                {products.map((item) => {
+                {product.map((item) => {
                   console.log(item)
                   const { image, type, cost, off, prize, id, quantity,category } = item;
                  
                   return (
                     <>
-                   
-                    <Link  to={`${category}/${id}/${type}`} className="link">
+                  <Link  to={`${id}/${type}`} className="link">
                       <div key={id} className="data">
                         <img src={image} alt="img" />
                         <p>{type}</p>
@@ -65,8 +54,8 @@ export default class Productscomponent extends PureComponent {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
       </div>
-    );
+    )
   }
 }

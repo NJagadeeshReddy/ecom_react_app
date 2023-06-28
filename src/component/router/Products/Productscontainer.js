@@ -39,6 +39,7 @@ export default class Productscontainer extends PureComponent {
   };
   render() {
     const { filteredProducts} = this.state;
+ 
     return (
       <div>
         <Productscomponent

@@ -7,9 +7,9 @@
       "cost": 55,
       "prize": "70",
       "off": "20",
-      "qty":"1",
-      "details":"An orange is a fruit of various citrus species in the family Rutaceae (see list of plants known as orange); it primarily refers to Citrus × sinensis, which is also called sweet orange, to distinguish it from the related Citrus aurantium, referred to as bitter orange.",
-      "category":"fruits"
+      "qty": "1",
+      "details": "An orange is a fruit of various citrus species in the family Rutaceae (see list of plants known as orange); it primarily refers to Citrus × sinensis, which is also called sweet orange, to distinguish it from the related Citrus aurantium, referred to as bitter orange.",
+      "category": "fruits"
     },
     {
       "id": 2,
@@ -18,9 +18,9 @@
       "cost": 105,
       "prize": "150",
       "off": "30",
-      "qty":"1",
-      "details":"Apples are among the worlds most popular fruits. They grow on the apple tree (Malus domestica), originally from Central Asia. Apples are high in fiber, vitamin C, and various antioxidants",
-      "category":"fruits"
+      "qty": "1",
+      "details": "Apples are among the worlds most popular fruits. They grow on the apple tree (Malus domestica), originally from Central Asia. Apples are high in fiber, vitamin C, and various antioxidants",
+      "category": "fruits"
     },
     {
       "id": 3,
@@ -29,9 +29,9 @@
       "cost": 75,
       "prize": "100",
       "off": "25",
-      "qty":"1",
-      "details":"Pomegranates are low in calories and fat but high in fiber, vitamins, and minerals. Benefits include antioxidants, heart health, urinary health, exercise endurance, and more. Pomegranates are round, red fruits. They feature a white inner flesh thats densely packed with crunchy.",
-      "category":"fruits"
+      "qty": "1",
+      "details": "Pomegranates are low in calories and fat but high in fiber, vitamins, and minerals. Benefits include antioxidants, heart health, urinary health, exercise endurance, and more. Pomegranates are round, red fruits. They feature a white inner flesh thats densely packed with crunchy.",
+      "category": "fruits"
     },
     {
       "id": 4,
@@ -40,9 +40,9 @@
       "cost": 50,
       "prize": "80",
       "off": "38",
-      "qty":"1",
-      "details":"Bananas contain fiber as well as vitamins and minerals that may provide health benefits.Bananas are among the most important food crops on the planet",
-      "category":"fruits"
+      "qty": "1",
+      "details": "Bananas contain fiber as well as vitamins and minerals that may provide health benefits.Bananas are among the most important food crops on the planet",
+      "category": "fruits"
     },
     {
       "id": 5,
@@ -51,9 +51,9 @@
       "cost": 150,
       "prize": "200",
       "off": "25",
-      "qty":"1",
-      "details":"Mango fruit is rich in pre-biotic dietary fiber, vitamins, minerals, and poly-phenolic flavonoid antioxidant compounds. According to new research study, mango fruit has been found to protect from colon, breast, leukemia and prostate cancers.",
-      "category":"fruits"
+      "qty": "1",
+      "details": "Mango fruit is rich in pre-biotic dietary fiber, vitamins, minerals, and poly-phenolic flavonoid antioxidant compounds. According to new research study, mango fruit has been found to protect from colon, breast, leukemia and prostate cancers.",
+      "category": "fruits"
     },
     {
       "id": 6,
@@ -62,19 +62,20 @@
       "cost": 60,
       "prize": "90",
       "off": "33",
-      "qty":"1",
-      "details":" Guavas are tropical fruits with yellowish-green skin, and they grow on trees in Central chittor. The Latin name for the common guava tree is Psidium guajava. People use guava leaf te",
-      "category":"fruits"
-    },{
+      "qty": "1",
+      "details": " Guavas are tropical fruits with yellowish-green skin, and they grow on trees in Central chittor. The Latin name for the common guava tree is Psidium guajava. People use guava leaf te",
+      "category": "fruits"
+    },
+    {
       "id": 7,
       "image": "https://www.ardovlm.com/wp-content/uploads/2017/08/Dried-Fruit.jpg",
       "type": "Ardo",
       "cost": 330,
       "prize": "450",
       "off": "26",
-      "qty":"1",
-      "details":"Andrographis paniculata, commonly known as creat or green chiretta, [2] is an annual herbaceous plant in the family Acanthaceae, native to India",
-      "category":"dryfruits"
+      "qty": "1",
+      "details": "Andrographis paniculata, commonly known as creat or green chiretta, [2] is an annual herbaceous plant in the family Acanthaceae, native to India",
+      "category": "dryfruits"
     },
     {
       "id": 8,
@@ -83,9 +84,9 @@
       "cost": 550,
       "prize": "600",
       "off": "10",
-      "qty":"1",
-      "details":"About us. Chelmer Foods Limited are leading specialists in the supply & distribution of all dried & dehydrated fruits & edible nuts - including all types of dried vine fruits, tree fruits ",
-      "category":"dryfruits"
+      "qty": "1",
+      "details": "About us. Chelmer Foods Limited are leading specialists in the supply & distribution of all dried & dehydrated fruits & edible nuts - including all types of dried vine fruits, tree fruits ",
+      "category": "dryfruits"
     },
     {
       "id": 9,
@@ -94,9 +95,9 @@
       "cost": 280,
       "prize": "420",
       "off": "32",
-      "qty":"1",
-      "details":"Figs or Anjeer fruit have multiple benefits. First is, by sun drying it and having it raw. You can even store this dried fig throughout the year. People across the country love the milk shake of Kaju Anjeer. For which, you need to soak some figs and add them along with cashews to the milk.",
-      "category":"dryfruits"
+      "qty": "1",
+      "details": "Figs or Anjeer fruit have multiple benefits. First is, by sun drying it and having it raw. You can even store this dried fig throughout the year. People across the country love the milk shake of Kaju Anjeer. For which, you need to soak some figs and add them along with cashews to the milk.",
+      "category": "dryfruits"
     },
     {
       "id": 10,
@@ -105,9 +106,9 @@
       "cost": 820,
       "prize": "1000",
       "off": "18",
-      "qty":"1",
-      "details":"One of the best Badam benefits you can count on is stronger bones! Yes! This healthy nut is abundant in bone-strengthening nutrients like copper, calcium, zinc, vitamin K, proteins & magnesium.",
-      "category":"dryfruits"
+      "qty": "1",
+      "details": "One of the best Badam benefits you can count on is stronger bones! Yes! This healthy nut is abundant in bone-strengthening nutrients like copper, calcium, zinc, vitamin K, proteins & magnesium.",
+      "category": "dryfruits"
     },
     {
       "id": 11,
@@ -116,9 +117,9 @@
       "cost": 300,
       "prize": "400",
       "off": "30",
-      "qty":"1",
-      "details":"Despite their common label, almonds are not true nuts (a type of dry fruit) but rather seeds enclosed in a hard fruit covering. The sweet almond is cultivated extensively in certain favourable regions, though nut crops are uncertain wherever frosts are likely to occur during flowering.",
-      "category":"dryfruits"
+      "qty": "1",
+      "details": "Despite their common label, almonds are not true nuts (a type of dry fruit) but rather seeds enclosed in a hard fruit covering. The sweet almond is cultivated extensively in certain favourable regions, though nut crops are uncertain wherever frosts are likely to occur during flowering.",
+      "category": "dryfruits"
     },
     {
       "id": 12,
@@ -127,9 +128,9 @@
       "cost": 530,
       "prize": "700",
       "off": "23",
-      "qty":"1",
-      "details":"Dried mango often comes in slices, which may include sulfites to increase its shelf life and keep the mango soft. Organic varieties can be stickier and more difficult to eat. Freeze-dried mango is crunchier and often free of added sugar. Mango that is candied or crystallized is steeped in a mix of water and sugar before it’s dried.",
-      "category":"dryfruits"
+      "qty": "1",
+      "details": "Dried mango often comes in slices, which may include sulfites to increase its shelf life and keep the mango soft. Organic varieties can be stickier and more difficult to eat. Freeze-dried mango is crunchier and often free of added sugar. Mango that is candied or crystallized is steeped in a mix of water and sugar before it’s dried.",
+      "category": "dryfruits"
     },
     {
       "id": 13,
@@ -138,9 +139,9 @@
       "cost": 40,
       "prize": "64",
       "off": "22",
-      "qty":"1",
-      "details":"Carrots are rich in vitamins, minerals, and fiber. They are also a good source of antioxidants. Antioxidants are nutrients present in plant-based foods.",
-      "category":"vegetables"
+      "qty": "1",
+      "details": "Carrots are rich in vitamins, minerals, and fiber. They are also a good source of antioxidants. Antioxidants are nutrients present in plant-based foods.",
+      "category": "vegetables"
     },
     {
       "id": 14,
@@ -149,9 +150,9 @@
       "cost": 30,
       "prize": "40",
       "off": "10",
-      "qty":"1",
-      "details":"Dried mangoes are a good source of: Vitamin A; Calcium; Iron; Potassium; Many dried fruits are rich in antioxidants. Dried mango provides an especially powerful dose.",
-      "category":"vegetables"
+      "qty": "1",
+      "details": "Dried mangoes are a good source of: Vitamin A; Calcium; Iron; Potassium; Many dried fruits are rich in antioxidants. Dried mango provides an especially powerful dose.",
+      "category": "vegetables"
     },
     {
       "id": 15,
@@ -160,9 +161,9 @@
       "cost": 20,
       "prize": "30",
       "off": "33",
-      "qty":"1",
-      "details":"A cup of chopped raw tomato provides the following: You also get about 25% of your vitamin C and 10% of your vitamin K and potassium needs for the day. Tomatoes are a good source of lycopene, beta carotene, lutein and zeaxanthin",
-      "category":"vegetables"
+      "qty": "1",
+      "details": "A cup of chopped raw tomato provides the following: You also get about 25% of your vitamin C and 10% of your vitamin K and potassium needs for the day. Tomatoes are a good source of lycopene, beta carotene, lutein and zeaxanthin",
+      "category": "vegetables"
     },
     {
       "id": 16,
@@ -171,9 +172,9 @@
       "cost": 15,
       "prize": "25",
       "off": "41",
-      "qty":"1",
-      "details":"This article explains everything you need to know about spinach and its health benefits. The nutrition facts for 3.5 ounces (100 grams) of raw spinach are ( 1 ): Most of the carbs in spinach consist of fiber, which is incredibly healthy. ",
-      "category":"vegetables"
+      "qty": "1",
+      "details": "This article explains everything you need to know about spinach and its health benefits. The nutrition facts for 3.5 ounces (100 grams) of raw spinach are ( 1 ): Most of the carbs in spinach consist of fiber, which is incredibly healthy. ",
+      "category": "vegetables"
     },
     {
       "id": 17,
@@ -182,9 +183,9 @@
       "cost": 24,
       "prize": "30",
       "off": "14",
-      "qty":"1",
-      "details":"Neck pain is a common problem, especially if you sit for many hours a day, frequently bend your neck to use your phone, or have poor posture. A chiropractor may help ease your neck pain by realigning your spine and easing tension in your neck muscles",
-      "category":"vegetables"
+      "qty": "1",
+      "details": "Neck pain is a common problem, especially if you sit for many hours a day, frequently bend your neck to use your phone, or have poor posture. A chiropractor may help ease your neck pain by realigning your spine and easing tension in your neck muscles",
+      "category": "vegetables"
     },
     {
       "id": 18,
@@ -193,19 +194,20 @@
       "cost": 33,
       "prize": "44",
       "off": "20",
-      "qty":"1",
-      "details":"Bitter gourd is a green-skinned vegetable with white to translucent flesh and a taste that fits its name. Unless you grew up with bitter gourd as part of your regular diet, it might take you a while to warm up to the bitter flavor.",
-      "category":"vegetables"
-    },{
+      "qty": "1",
+      "details": "Bitter gourd is a green-skinned vegetable with white to translucent flesh and a taste that fits its name. Unless you grew up with bitter gourd as part of your regular diet, it might take you a while to warm up to the bitter flavor.",
+      "category": "vegetables"
+    },
+    {
       "id": 19,
       "image": "https://tse3.mm.bing.net/th?id=OIP.3mmALZ9eU6gW9vuh4ec9AgHaHa&pid=Api&P=0&h=180",
       "type": "Strawberry",
       "cost": 85,
       "prize": "95",
       "off": "12",
-      "qty":"1",
-      "details":"Using a Blender/Immersion Blender Transfer the strawberries to a high-speed blender or use an immersion blender in a large bowl of the strawberries. Blend... You could then drink the......",
-      "category":"juices"
+      "qty": "1",
+      "details": "Using a Blender/Immersion Blender Transfer the strawberries to a high-speed blender or use an immersion blender in a large bowl of the strawberries. Blend... You could then drink the......",
+      "category": "juices"
     },
     {
       "id": 20,
@@ -214,9 +216,9 @@
       "cost": 55,
       "prize": "62",
       "off": "13",
-      "qty":"1",
-      "details":"The best orange juice option when it comes to store-bought juice is fortified, 100% orange juice. It has no added sugar and has been supplemented with calcium and Vitamin D—two nutrients banglore spicuial",
-      "category":"juices"
+      "qty": "1",
+      "details": "The best orange juice option when it comes to store-bought juice is fortified, 100% orange juice. It has no added sugar and has been supplemented with calcium and Vitamin D—two nutrients banglore spicuial",
+      "category": "juices"
     },
     {
       "id": 21,
@@ -225,9 +227,9 @@
       "cost": 40,
       "prize": "55",
       "off": "15",
-      "qty":"1",
-      "details":"• 100% organic lemon juice • All natural, fresh lemon juice • Made with real fresh fruit from our groves • Perfect for adding a citrus kick to cocktails & recipes • Our lemon juice is tart, sour and.......",
-      "category":"juices"
+      "qty": "1",
+      "details": "• 100% organic lemon juice • All natural, fresh lemon juice • Made with real fresh fruit from our groves • Perfect for adding a citrus kick to cocktails & recipes • Our lemon juice is tart, sour and.......",
+      "category": "juices"
     },
     {
       "id": 22,
@@ -236,9 +238,9 @@
       "cost": 45,
       "prize": "60",
       "off": "15",
-      "qty":"1",
-      "details":"If you are looking for a recipe that is balanced and earthy, this might be the one for you. The basil and lime cut through the sweetness of the watermelon making it subtle juice.",
-      "category":"juices"
+      "qty": "1",
+      "details": "If you are looking for a recipe that is balanced and earthy, this might be the one for you. The basil and lime cut through the sweetness of the watermelon making it subtle juice.",
+      "category": "juices"
     },
     {
       "id": 23,
@@ -247,9 +249,9 @@
       "cost": 93,
       "prize": "110",
       "off": "18",
-      "qty":"1",
-      "details":"Its health benefits can include improved heart health & digestion, detoxification of the body, increased hydration and boosted immunity. Apple juice might provide better cognition,........",
-      "category":"juices"
+      "qty": "1",
+      "details": "Its health benefits can include improved heart health & digestion, detoxification of the body, increased hydration and boosted immunity. Apple juice might provide better cognition,........",
+      "category": "juices"
     },
     {
       "id": 24,
@@ -258,9 +260,287 @@
       "cost": 72,
       "prize": "94",
       "off": "22",
-      "qty":"1",
-      "details":"The most notable health benefits of mango juice include lowering blood pressure, boosting circulation, improving vision health, supporting the immune system, preventing cancer and chronic disease, increasing skin health...",
-      "category":"juices"
+      "qty": "1",
+      "details": "The most notable health benefits of mango juice include lowering blood pressure, boosting circulation, improving vision health, supporting the immune system, preventing cancer and chronic disease, increasing skin health...",
+      "category": "juices"
     }
+  ],
+  "categories": ["fruits", "vegetables", "dryfruits", "juices"],
+
+  "fruits": [
+    {
+      "id": 1,
+      "image": "https://wallpapercave.com/wp/wp2293595.jpg",
+      "type": "Orange",
+      "cost": 55,
+      "prize": "70",
+      "off": "20",
+      "qty": "1",
+      "details": "An orange is a fruit of various citrus species in the family Rutaceae (see list of plants known as orange); it primarily refers to Citrus × sinensis, which is also called sweet orange, to distinguish it from the related Citrus aurantium, referred to as bitter orange.",
+      "category": "fruits"
+    },
+    {
+      "id": 2,
+      "image": "https://www.wallpaperflare.com/static/947/293/305/pple-leaves-tail-slice-wallpaper.jpg",
+      "type": "Apple",
+      "cost": 105,
+      "prize": "150",
+      "off": "30",
+      "qty": "1",
+      "details": "Apples are among the worlds most popular fruits. They grow on the apple tree (Malus domestica), originally from Central Asia. Apples are high in fiber, vitamin C, and various antioxidants",
+      "category": "fruits"
+    },
+    {
+      "id": 3,
+      "image": "https://tse3.mm.bing.net/th?id=OIP.C2yRvmtMBxguk0l6W6bTTgHaGI&pid=Api&P=0&h=180",
+      "type": "Promogranet",
+      "cost": 75,
+      "prize": "100",
+      "off": "25",
+      "qty": "1",
+      "details": "Pomegranates are low in calories and fat but high in fiber, vitamins, and minerals. Benefits include antioxidants, heart health, urinary health, exercise endurance, and more. Pomegranates are round, red fruits. They feature a white inner flesh thats densely packed with crunchy.",
+      "category": "fruits"
+    },
+    {
+      "id": 4,
+      "image": "https://tse3.mm.bing.net/th?id=OIP.43UmRKtY2FBJ-r31J7SAYgHaIA&pid=Api&P=0&h=180",
+      "type": "Bananna",
+      "cost": 50,
+      "prize": "80",
+      "off": "38",
+      "qty": "1",
+      "details": "Bananas contain fiber as well as vitamins and minerals that may provide health benefits.Bananas are among the most important food crops on the planet",
+      "category": "fruits"
+    },
+    {
+      "id": 5,
+      "image": "https://tse4.mm.bing.net/th?id=OIP.zzB-RUq1RlCFutGUbXjOJQHaFF&pid=Api&P=0&h=180",
+      "type": "Mango",
+      "cost": 150,
+      "prize": "200",
+      "off": "25",
+      "qty": "1",
+      "details": "Mango fruit is rich in pre-biotic dietary fiber, vitamins, minerals, and poly-phenolic flavonoid antioxidant compounds. According to new research study, mango fruit has been found to protect from colon, breast, leukemia and prostate cancers.",
+      "category": "fruits"
+    },
+    {
+      "id": 6,
+      "image": "https://cdn.shopify.com/s/files/1/0076/4339/8233/products/guava.jpg?v=1543324340",
+      "type": "Guava",
+      "cost": 60,
+      "prize": "90",
+      "off": "33",
+      "qty": "1",
+      "details": " Guavas are tropical fruits with yellowish-green skin, and they grow on trees in Central chittor. The Latin name for the common guava tree is Psidium guajava. People use guava leaf te",
+      "category": "fruits"
+    }
+  ],
+  "vegetables":[
+    {
+      "id": 13,
+      "image": "https://tse1.mm.bing.net/th?id=OIP.CbE8LfYM8gyb46MZyLdZBwHaEo&pid=Api&P=0&h=180",
+      "type": "Carrat",
+      "cost": 40,
+      "prize": "64",
+      "off": "22",
+      "qty": "1",
+      "details": "Carrots are rich in vitamins, minerals, and fiber. They are also a good source of antioxidants. Antioxidants are nutrients present in plant-based foods.",
+      "category": "vegetables"
+    },
+    {
+      "id": 14,
+      "image": "https://tse2.mm.bing.net/th?id=OIP.IGwBEFypxhYQerOEY1cC5wHaFj&pid=Api&P=0&h=180",
+      "type": "Potato",
+      "cost": 30,
+      "prize": "40",
+      "off": "10",
+      "qty": "1",
+      "details": "Dried mangoes are a good source of: Vitamin A; Calcium; Iron; Potassium; Many dried fruits are rich in antioxidants. Dried mango provides an especially powerful dose.",
+      "category": "vegetables"
+    },
+    {
+      "id": 15,
+      "image": "https://tse4.mm.bing.net/th?id=OIP.IUH_hAn_6pGyNp8Cv1r_QwHaE1&pid=Api&P=0&h=180",
+      "type": "Tomato",
+      "cost": 20,
+      "prize": "30",
+      "off": "33",
+      "qty": "1",
+      "details": "A cup of chopped raw tomato provides the following: You also get about 25% of your vitamin C and 10% of your vitamin K and potassium needs for the day. Tomatoes are a good source of lycopene, beta carotene, lutein and zeaxanthin",
+      "category": "vegetables"
+    },
+    {
+      "id": 16,
+      "image": "https://www.healthyfoodhouse.com/wp-content/uploads/2014/04/spinach-one-of-the-healthiest-vegetables-in-the-world.jpg",
+      "type": "Spinach",
+      "cost": 15,
+      "prize": "25",
+      "off": "41",
+      "qty": "1",
+      "details": "This article explains everything you need to know about spinach and its health benefits. The nutrition facts for 3.5 ounces (100 grams) of raw spinach are ( 1 ): Most of the carbs in spinach consist of fiber, which is incredibly healthy. ",
+      "category": "vegetables"
+    },
+    {
+      "id": 17,
+      "image": "https://www.wickfordchiro.co.uk/wp-content/uploads/2014/05/Broccoli.jpg",
+      "type": "Chiropratic",
+      "cost": 24,
+      "prize": "30",
+      "off": "14",
+      "qty": "1",
+      "details": "Neck pain is a common problem, especially if you sit for many hours a day, frequently bend your neck to use your phone, or have poor posture. A chiropractor may help ease your neck pain by realigning your spine and easing tension in your neck muscles",
+      "category": "vegetables"
+    },
+    {
+      "id": 18,
+      "image": "https://cdn.theculturetrip.com/wp-content/uploads/2016/11/vegetables-19727_1280.jpg",
+      "type": "Bitter Gourd",
+      "cost": 33,
+      "prize": "44",
+      "off": "20",
+      "qty": "1",
+      "details": "Bitter gourd is a green-skinned vegetable with white to translucent flesh and a taste that fits its name. Unless you grew up with bitter gourd as part of your regular diet, it might take you a while to warm up to the bitter flavor.",
+      "category": "vegetables"
+    }
+
+  ],
+  "dryfruits":[
+    {
+      "id": 7,
+      "image": "https://www.ardovlm.com/wp-content/uploads/2017/08/Dried-Fruit.jpg",
+      "type": "Ardo",
+      "cost": 330,
+      "prize": "450",
+      "off": "26",
+      "qty": "1",
+      "details": "Andrographis paniculata, commonly known as creat or green chiretta, [2] is an annual herbaceous plant in the family Acanthaceae, native to India",
+      "category": "dryfruits"
+    },
+    {
+      "id": 8,
+      "image": "https://tse4.mm.bing.net/th?id=OIP.yOrjcRou_6fOBsvNWbFu4QHaE8&pid=Api&P=0&h=180",
+      "type": "Chelmer",
+      "cost": 550,
+      "prize": "600",
+      "off": "10",
+      "qty": "1",
+      "details": "About us. Chelmer Foods Limited are leading specialists in the supply & distribution of all dried & dehydrated fruits & edible nuts - including all types of dried vine fruits, tree fruits ",
+      "category": "dryfruits"
+    },
+    {
+      "id": 9,
+      "image": "https://www.theayurveda.org/wp-content/uploads/2016/06/Dried-figs-as-dry-fruits-1024x768.jpg",
+      "type": "Anjeer",
+      "cost": 280,
+      "prize": "420",
+      "off": "32",
+      "qty": "1",
+      "details": "Figs or Anjeer fruit have multiple benefits. First is, by sun drying it and having it raw. You can even store this dried fig throughout the year. People across the country love the milk shake of Kaju Anjeer. For which, you need to soak some figs and add them along with cashews to the milk.",
+      "category": "dryfruits"
+    },
+    {
+      "id": 10,
+      "image": "https://gbdryfruitsupplier.pk/wp-content/uploads/2019/09/mix-dried-fruits-11.jpg",
+      "type": "Badam",
+      "cost": 820,
+      "prize": "1000",
+      "off": "18",
+      "qty": "1",
+      "details": "One of the best Badam benefits you can count on is stronger bones! Yes! This healthy nut is abundant in bone-strengthening nutrients like copper, calcium, zinc, vitamin K, proteins & magnesium.",
+      "category": "dryfruits"
+    },
+    {
+      "id": 11,
+      "image": "https://qph.fs.quoracdn.net/main-qimg-2b84b95a6af4a8f9add03fb7286aa541-c",
+      "type": "Almonds",
+      "cost": 300,
+      "prize": "400",
+      "off": "30",
+      "qty": "1",
+      "details": "Despite their common label, almonds are not true nuts (a type of dry fruit) but rather seeds enclosed in a hard fruit covering. The sweet almond is cultivated extensively in certain favourable regions, though nut crops are uncertain wherever frosts are likely to occur during flowering.",
+      "category": "dryfruits"
+    },
+    {
+      "id": 12,
+      "image": "https://assets.epicurious.com/photos/57e3f0f35380fbcb1621ee04/2:1/w_1260%2Ch_630/dried-mango_22092016.jpg",
+      "type": "Dry Mango",
+      "cost": 530,
+      "prize": "700",
+      "off": "23",
+      "qty": "1",
+      "details": "Dried mango often comes in slices, which may include sulfites to increase its shelf life and keep the mango soft. Organic varieties can be stickier and more difficult to eat. Freeze-dried mango is crunchier and often free of added sugar. Mango that is candied or crystallized is steeped in a mix of water and sugar before it’s dried.",
+      "category": "dryfruits"
+    }
+
+  ],
+  
+  "juices":[
+    {
+      "id": 19,
+      "image": "https://tse3.mm.bing.net/th?id=OIP.3mmALZ9eU6gW9vuh4ec9AgHaHa&pid=Api&P=0&h=180",
+      "type": "Strawberry",
+      "cost": 85,
+      "prize": "95",
+      "off": "12",
+      "qty": "1",
+      "details": "Using a Blender/Immersion Blender Transfer the strawberries to a high-speed blender or use an immersion blender in a large bowl of the strawberries. Blend... You could then drink the......",
+      "category": "juices"
+    },
+    {
+      "id": 20,
+      "image": "http://www.pngall.com/wp-content/uploads/2016/04/Juice-Free-PNG-Image.png",
+      "type": "Orange",
+      "cost": 55,
+      "prize": "62",
+      "off": "13",
+      "qty": "1",
+      "details": "The best orange juice option when it comes to store-bought juice is fortified, 100% orange juice. It has no added sugar and has been supplemented with calcium and Vitamin D—two nutrients banglore spicuial",
+      "category": "juices"
+    },
+    {
+      "id": 21,
+      "image": "https://www.rd.com/wp-content/uploads/2016/06/01-soda-alternatives-orange-juice.jpg",
+      "type": "Leamon",
+      "cost": 40,
+      "prize": "55",
+      "off": "15",
+      "qty": "1",
+      "details": "• 100% organic lemon juice • All natural, fresh lemon juice • Made with real fresh fruit from our groves • Perfect for adding a citrus kick to cocktails & recipes • Our lemon juice is tart, sour and.......",
+      "category": "juices"
+    },
+    {
+      "id": 22,
+      "image": "https://tse3.mm.bing.net/th?id=OIP.y4VAQRwS-W6ZDqZ14kmz2AHaE8&pid=Api&P=0&h=180",
+      "type": "Watermealon",
+      "cost": 45,
+      "prize": "60",
+      "off": "15",
+      "qty": "1",
+      "details": "If you are looking for a recipe that is balanced and earthy, this might be the one for you. The basil and lime cut through the sweetness of the watermelon making it subtle juice.",
+      "category": "juices"
+    },
+    {
+      "id": 23,
+      "image": "https://www.tun-asia.com/wp-content/uploads/2014/08/Apple-Juice-3.jpg",
+      "type": "Apple",
+      "cost": 93,
+      "prize": "110",
+      "off": "18",
+      "qty": "1",
+      "details": "Its health benefits can include improved heart health & digestion, detoxification of the body, increased hydration and boosted immunity. Apple juice might provide better cognition,........",
+      "category": "juices"
+    },
+    {
+      "id": 24,
+      "image": "https://indianfoodsrecipes.in/wp-content/uploads/2020/07/mango-juice.jpeg",
+      "type": "Mango",
+      "cost": 72,
+      "prize": "94",
+      "off": "22",
+      "qty": "1",
+      "details": "The most notable health benefits of mango juice include lowering blood pressure, boosting circulation, improving vision health, supporting the immune system, preventing cancer and chronic disease, increasing skin health...",
+      "category": "juices"
+    }
+
   ]
 }

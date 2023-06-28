@@ -23,7 +23,7 @@ nav {
   position: relative;
   justify-content: space-between;
   padding: 15px 30px;
-  box-shadow: 0 0 0.2rem 0 rgb(159, 237, 191);
+  box-shadow: 0 0 0.2rem 0 rgb(103, 238, 159);
 
   .icon img {
     @include wi(4rem, 3rem);
@@ -44,21 +44,16 @@ nav {
       background-color:$bg-color;
     }
     a {
-      color: #333;
+      color: rgb(113, 244, 96);
       font-size: 1.5rem;
       text-decoration: none;
       font-weight: bold;
-      background-color: white;
       border-radius: 3px;
       padding: 2px;
     }
   }
-    
-
     li:hover a {
-      background-color: white;
       color: orange;
-      padding: 5px;
       border-radius: 2px;
       cursor: pointer;
     }
@@ -215,3 +210,4 @@ nav {
     border: 5px solid red;
   }
 }
+

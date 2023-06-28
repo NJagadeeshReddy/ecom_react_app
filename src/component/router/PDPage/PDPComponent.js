@@ -1,14 +1,12 @@
 import React, { PureComponent } from "react";
 import "./productdetails.scss";
+import { Link } from "react-router-dom";
 export default class PDPComponent extends PureComponent {
  
-  handleCancel = ()=>{
-    
-  }
+
   render() {
     const {  handleAddToCart } = this.props;
-    const { product } = this.props;
-
+    const { product } = this.props; 
     {
       console.log(product);
     }
@@ -16,9 +14,9 @@ export default class PDPComponent extends PureComponent {
     return (
       <>
         <div className="pdp">
-          <button className="cancel" onClick={this.handleCancel}>
-            C
-          </button>
+          <Link to="/:item" className="cancel" >
+          X
+          </Link>
           <div className="product-details">
             <div className="product-image">
               <img src={product.image} alt={product.type} />
@@ -41,6 +39,7 @@ export default class PDPComponent extends PureComponent {
                 <b style={{ color: "brown" }}>Details:</b>
                 {product.details}
               </p>
+              
               <button className="more">More</button>
             </div>
           </div>

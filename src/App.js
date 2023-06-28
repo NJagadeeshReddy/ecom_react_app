@@ -2,8 +2,9 @@ import React, { PureComponent } from "react";
 import { Route, Routes } from "react-router-dom";
 import NavbarContainer from "./component/components/Navbarcomponent/index";
 import Homecontainer from "./component/router/Homecomponent/index";
-import Productscontainer from "./component/router/Products/index";
+//import Productscontainer from "./component/router/Products/index";
 import PDPcontainer from "./component/router/PDPage/index";
+import CatageroiesContainer from "./component/components/Categoriescomponent/index";
 export default class App extends PureComponent {
   constructor(props) {
     super(props);
@@ -13,6 +14,7 @@ export default class App extends PureComponent {
   }
   handleAddToCart = (item) => {
     const { cart } = this.state;
+    let x = document.getElementById("textmsg");
     const existingItemIndex = cart.findIndex(
       (cartItem) => cartItem.id === item.id
     );
@@ -22,12 +24,17 @@ export default class App extends PureComponent {
         const existingItem = updatedCart[existingItemIndex];
         existingItem.qty += 1;
         return { cart: updatedCart };
+        
       });
     } else {
       this.setState((prevState) => ({
         cart: [...prevState.cart, { ...item, qty: 1, cost: item.cost }],
       }));
     }
+    let data = `<div class="added">
+        successfully added 
+        </div>`;
+      x.insertAdjacentHTML("beforeend", `${data}`);
   };
 
   handleRemoveFromCart = (index) => {
@@ -64,12 +71,13 @@ export default class App extends PureComponent {
           onRemoveFromCart={this.handleRemoveFromCart}
           calculateTotal={this.calculateTotal}
         />
-
+        <CatageroiesContainer/>
+         
         <Routes>
-          <Route path="/" element={<Homecontainer />} />
-          <Route path="products" element={<Productscontainer />} />
+          <Route  path="/" element={<Homecontainer  />} />
+          {/* <Route path="products" element={<Productscontainer />} />  */}
           <Route
-            path="products/:id"
+            path="/:item/:id/:type"
             element={<PDPcontainer handleAddToCart={this.handleAddToCart} />}
           />
         </Routes>

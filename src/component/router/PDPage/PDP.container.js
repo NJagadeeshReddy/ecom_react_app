@@ -1,28 +1,52 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import React from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import PDPComponent from "./PDPComponent";
 
-const PDPcontainer = (props) => {
-  const { handleAddToCart } = props;
-  const { id } = useParams();
-  const [product, setProduct] = useState(null);
-  console.log(id);
-  useEffect(() => {
+const PDPContainerWrapper = (props) => {
+  const navigate = useNavigate();
+  const params = useParams();
+
+  return <PDPContainer navigate={navigate} params={params} {...props} />;
+};
+class PDPContainer extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      product: null,
+    };
+  }
+    
+  componentDidMount() {
+    this.fetchProductData();
+  }
+
+  componentDidUpdate(prevProps) {
+    if (prevProps.params.id !== this.props.params.id) {
+      this.fetchProductData();
+    }
+  }
+ 
+
+  fetchProductData() {
+    const { id } = this.props.params;
     fetch(`http://localhost:3000/products/${id}`)
       .then((res) => res.json())
       .then((data) => {
-        setProduct(data);
+        this.setState({ product: data });
       })
       .catch((error) => console.log(error));
-      
-  },[id]);
-  console.log(product)
-
-  if (!product) {
-    return <div>Loading...</div>;
   }
 
-  return <PDPComponent handleAddToCart={handleAddToCart} product={product} />;
-};
+  render() {
+    const { handleAddToCart} = this.props;
+    const { product  } = this.state;
 
-export default PDPcontainer;
+    if (!product) {
+      return <div>Loading...</div>;
+    }
+
+    return <PDPComponent handleAddToCart={handleAddToCart} product={product} />;
+  }
+}
+
+export default PDPContainerWrapper;

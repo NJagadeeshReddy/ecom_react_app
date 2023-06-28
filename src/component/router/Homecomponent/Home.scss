@@ -22,10 +22,29 @@
         height: 710px;  
     }
 }
-@mixin wi($arg1,$arg2){
-  width: $arg1;
-  height: $arg2;
+
+.home-body{
+    margin-top: 10px;
+    .final{
+    margin: 10px;
+    padding: 5px;
+    background-color: antiquewhite;
+    .media{
+        text-align: right;
+    }
+    img{
+        background-color: antiquewhite;
+        height: 40px;
+        width: 40px;
+    }
 }
+
+.red{
+    background-color: orange;
+    text-align: center;
+    color: white;
+}}
+
 
 
   

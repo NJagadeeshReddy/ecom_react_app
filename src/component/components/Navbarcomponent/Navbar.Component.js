@@ -9,6 +9,7 @@ export default class NavbarComponent extends PureComponent {
     const itemCount = cart.length;
     return (
       <div>
+        <p id="textmsg"></p>
         <nav>
           <div className="icon">
             <img
@@ -16,21 +17,24 @@ export default class NavbarComponent extends PureComponent {
               alt="ldg"
             />
           </div>
+         <ol>
+         <li>
+              <Link className="lin" to="/">
+                Home
+              </Link>
+            </li>
+            {/* <li>
+              <Link className="procat" to="products">
+                Product
+              </Link>
+            </li> */}
+         </ol>
           <div className="search_box">
             <input type="text" placeholder="search your favorite" />
             <span className="fa fa-search"></span>
           </div>
           <ol className="navbar-menu">
-            <li>
-              <Link className="lin" to="/">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link className="lin" to="products">
-                Product
-              </Link>
-            </li>
+            
             <li>
               <a href="" className="login">
                 Login
@@ -47,13 +51,13 @@ export default class NavbarComponent extends PureComponent {
                   {console.log(cart)}
                   {cart.map((item, index) => (
                     <div className="cart-item" key={index}>
-                      <h4>{index + 1}</h4>
+                      <h4>{index + 1}.</h4>
                       <div className="row-img">
                         <img className="rowing" src={item.image} alt="img" />
                       </div>
-                      <p>{item.type}</p>
-                      <h4>
-                        {item.qty}×₹.{item.cost}={item.qty * item.cost}
+                      <p>{item.type} .</p>
+                      <h4>  qty:
+                        {item.qty}×₹.{item.cost} = ₹.{item.qty * item.cost}
                       </h4>
                       <button onClick={() => handleRemoveFromCart(index)}>
                         remove
@@ -69,6 +73,7 @@ export default class NavbarComponent extends PureComponent {
             </li>
           </ol>
         </nav>
+        
       </div>
     );
   }
